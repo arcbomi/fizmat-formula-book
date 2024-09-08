@@ -1,10 +1,3 @@
-<style>
-    #result-html,
-    #result-block {
-        font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;
-    }
-</style>
-
 
 # Бүтін көрсеткішті дәреже
 $$

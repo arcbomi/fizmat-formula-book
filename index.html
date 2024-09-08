@@ -11,13 +11,24 @@
     <!-- 设置浏览器图标 -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <!-- 默认主题 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <!-- 下面两个是magic-->
+    <link
+    rel="stylesheet"
+    media="(prefers-color-scheme: dark)"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+  />
+  <link
+    rel="stylesheet"
+    media="(prefers-color-scheme: light)"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+  />
 </head>
 
 <body>
     <!-- 定义加载时候的动作 -->
     <div id="app">Loading...</div>
+
+
     <script>
         window.$docsify = {
             // 项目名称
@@ -30,8 +41,14 @@
             loadNavbar: true,
             // 最大支持渲染的标题层级
             maxLevel: 5,
-            homepage: '/home.md',
+            homepage: '_home.md',
             auto2top: true,
+            // alias: {
+            //    '/.*/_sidebar.md': '/_sidebar.md',
+            //},
+            //封面
+            coverpage: false,
+            //executeScript: true,
             // 加载_404.md
             notFoundPage: true,
             //听说不会再有#
@@ -39,7 +56,10 @@
             // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
             subMaxLevel: 4,
             // 小屏设备下合并导航栏到侧边栏
-            mergeNavbar: true,
+            //mergeNavbar: true,
+            // 页脚信息插件
+            loadFooter: true,
+            loadFooter: '_footer.md',
             /*搜索相关设置*/
             search: {
                 maxAge: 86400000,// 过期时间，单位毫秒，默认一天
@@ -54,17 +74,23 @@
             latex: {
                 inlineMath: [['$', '$'], ['\\(', '\\)']], // default
                 displayMath: [['$$', '$$']],               // default
-            }
-        }
+            },
+        };
     </script>
+
     <!-- docsify的js依赖 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
     <!-- 搜索功能支持 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <!-- image zoom -->
     <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/zoom-image.min.js"></script>
+    <!-- flooter -->
+    <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+    <!-- 侧边栏折叠 -->
+    <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />-->
+    <!--<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>-->
     <!-- katex -->
-    <script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
 
     <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
