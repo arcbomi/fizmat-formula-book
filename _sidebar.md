@@ -1,7 +1,7 @@
 - [Home Page](/)
-  - [algebra](algebra/)
-  - [geometria](geometria/)
+  - [algebra](/algebra/_home.md)
+  - [geometria](/geometria/_home.md)
   
 - **Links**
-- [![Github](assets/image/github.svg)Github](https://github.com/jhildenbiddle/docsify-themeable)
+- [![Github](assets/image/github.svg)Github](https://github.com/arcbomi)
 - [![Instagram](assets/image/ins.svg)Instagram](https://instagram.com)
