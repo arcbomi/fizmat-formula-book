@@ -1,1 +1,24 @@
-hello iam ulas
+- [Басты бетке қайту](../_home.md)
+- [Алгебра](algebra/)
+  - 7-сынып
+    - [көрсеткішті дәреже](algebra/ALG_700.md)
+    - [Қысқаша көбейту](algebra/ALG_701.md)
+  - 8-сынып
+    - [түбір](algebra/ALG_800.md)
+    - [Квадрат теңдеу](algebra/ALG_801.md)
+    - [Виет теоремасы](algebra/ALG_802.md)
+    - [Комплекс сандар](algebra/ALG_803.md)
+  - 9-сынып
+    - [Комбинаторика](algebra/ALG_900.md)
+    - [прогрессия](algebra/ALG_901.md)
+    - [Тригонометрия](algebra/ALG_902.md)
+    - [Логарифм](algebra/ALG_903.md)
+    - [Теңсіздіктер](algebra/ALG_904.md)
+    - [Безу теоремасы](algebra/ALG_905.md)
+  - 10-сынып
+    - [кері функция](algebra/ALG_X00.md)
+    - [Шектер](algebra/ALG_X01.md)
+    - [Туынды](algebra/ALG_X02.md)
+    - [Байес формуласы](algebra/ALG_X03.md)
+  - 11-сынып
+    - [Интеграл](algebra/ALG_A01.md)

@@ -1,5 +1,5 @@
-- [Return to Home](/_home.md)
-- [algebra](algebra/)
+- [Басты бетке қайту](../_home.md)
+- [Алгебра](algebra/)
   - 7-сынып
     - [көрсеткішті дәреже](algebra/ALG_700.md)
     - [Қысқаша көбейту](algebra/ALG_701.md)

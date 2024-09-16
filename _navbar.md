@@ -1,2 +1,2 @@
-* [Algebra](/algebra)
-* [Geometria](/geometria)
+* [Алгебра](algebra/_home.md)
+* [Геометрия](geometria/_home.md)

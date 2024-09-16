@@ -1,26 +1,10 @@
-- [Return to Home](/?id=main)
+## Физмат формулалар кітабы
 
-- [algebra](algebra/)
-  - [10-сынып.md](algebra/10-сынып.md)
-  - [7-сынып-upmath.md](algebra/7-сынып-upmath.md)
-  - [8-сынып.md](algebra/8-сынып.md)
-  - [9-сынып.md](algebra/9-сынып.md)
-  - [ALG_700.md](algebra/ALG_700.md)
-  - [ALG_701.md](algebra/ALG_701.md)
-  - [ALG_800.md](algebra/ALG_800.md)
-  - [ALG_801.md](algebra/ALG_801.md)
-  - [ALG_802.md](algebra/ALG_802.md)
-  - [ALG_803.md](algebra/ALG_803.md)
-  - [ALG_900.md](algebra/ALG_900.md)
-  - [ALG_901.md](algebra/ALG_901.md)
-  - [ALG_902.md](algebra/ALG_902.md)
-  - [ALG_90a.md](algebra/ALG_90a.md)
-  - [ALG_90b.md](algebra/ALG_90b.md)
-  - [ALG_X00.md](algebra/ALG_X00.md)
-  - [ALG_X01.md](algebra/ALG_X01.md)
-  - [ALG_X02.md](algebra/ALG_X02.md)
-  - [TMP_ALG_001.md](algebra/TMP_ALG_001.md)
-  - [TMP_ALG_002.md](algebra/TMP_ALG_002.md)
-  - [TMP_ALG_003.md](algebra/TMP_ALG_003.md)
-  - [TMP_ALG_004.md](algebra/TMP_ALG_004.md)
-  - [TMP_ALG_005.md](algebra/TMP_ALG_005.md)
+*Fizmat Formula Book* веб-сайтына қош келдіңіз! Бұл математикалық формулалар мен олардың дәлелдеулерін қамтамасыз етуге бағытталған қарапайым құрал. Мұнда жалпы математикалық формулаларды оңай іздеп және олардың артындағы дәлелдеуін оңай түсінуге болады.
+
+## Өзіндік ерекшеліктері
+- Формуланың қысқа және нақты берілген
+- Әрбір формуланың дәлелдеуі беріледі
+- Оқушылар, мұғалімдер, және математиктер үшін қолайлы
+
+Fizmat Formula Book қолданбасы математиканың құпияларын үйрену мен зерттеу үшін пайдалануға шақырамыз!
