@@ -22,3 +22,6 @@
     - [Байес формуласы](algebra/ALG_X03.md)
   - 11-сынып
     - [Интеграл](algebra/ALG_A01.md)
+    - [Анықталмаған интеграл](algebra/ALG_A02.md)
+    - [Ньютон-Лейбниц](algebra/ALG_A03.md)
+    - [Беттің ауданы](algebra/ALG_A04.md)

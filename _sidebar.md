@@ -1,6 +1,7 @@
 - [Басты бет](#)
   - [Алгебра](algebra/_home.md)
   - [Геометрия](geometria/_home.md)
+  - [Физика](physics/_home.md)
   
 - **Links**
 - [![Github](assets/image/github.svg)Github](https://github.com/arcbomi/fizmat-formula-book)

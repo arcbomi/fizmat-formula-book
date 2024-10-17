@@ -1,2 +1,2 @@
-- [Return to Home](/?id=main)
+- [Басты бетке қайту](/?id=main)
 - [geometria](geometria/)

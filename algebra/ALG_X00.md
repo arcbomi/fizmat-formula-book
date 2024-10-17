@@ -1,3 +1,8 @@
+<style> 
+.markdown-section { 
+    padding: 0.25rem 10px;
+} 
+</style>
 ## кері функция 
 $f^{-1}(f(x))=x$, $f^{-1}(x)$ функциясы $f(x)$ функциясының $\textbf{кері функциясы}$ деп аталады
 
@@ -10,6 +15,8 @@ $$
 \ctg^{-1}(x)&=\arcctg(x) \\
 \end{align*}
 $$
+
+## Properties
 $$
 \begin{align*}
 \sin(\arccos(x))&=\sqrt {1-x^2} \\
@@ -22,6 +29,8 @@ $$
 \ctg(\arccos(x))&=\frac{x}{\sqrt{1-x^2}} \\
 \end{align*}
 $$
+
+## Domains
 $$
 \begin{align*}
 \arcsin(x)&\in [-\frac{\pi}{2}; \frac{\pi}{2}], x\in[-1;1] \\
@@ -30,6 +39,7 @@ $$
 \arcctg(x)&\in (0; \pi), x\in R \\
 \end{align*}
 $$
+## Complementary Relationship
 $$
 \begin{align*}
 \arcsin(-x)&=-\arcsin(x) \\
@@ -42,44 +52,57 @@ $$
 \begin{align*}
 \arcsin(x)&+\arccos(x)=\frac{\pi}{2} \\
 \arctan(x)&+\arcctg(x)=\frac{\pi}{2} \\
-\\
-\end{align*}
-$$
-$$
-\begin{align*}
-\arcsin f(x)&=\arcsin g(x) \Leftrightarrow  
-\begin{equation*}
- \begin{cases}
-   f(x)=g(x) \\
-   |f(x)|\leq 1\\
- \end{cases}
- \end{equation*}
- \Leftrightarrow
-\begin{equation*}
- \begin{cases}
- f(x)=g(x) \\
- |g(x)|\leq 1\\
- \end{cases} 
-\end{equation*} \\
-\arccos f(x)&=\arccos g(x) \Leftrightarrow
-\begin{equation*}
- \begin{cases}
-   f(x)=g(x) \\
-   |f(x)|\leq 1\\
- \end{cases}
- \end{equation*}
- \Leftrightarrow
-\begin{equation*}
- \begin{cases}
- f(x)=g(x) \\
- |g(x)|\leq 1\\
- \end{cases} 
-\end{equation*} \\
-\arctan f(x)&=\arctan g(x) \Leftrightarrow f(x)=g(x) \\
-\arcctg f(x)&=\arcctg g(x) \Leftrightarrow f(x)=g(x)
 \end{align*}
 $$
 
+## Equivalence of Inverse
+
+$$
+\begin{align*}
+\arcsin f(x) & = \arcsin g(x) & \Leftrightarrow  
+\begin{cases}
+   f(x) = g(x) \\
+   |f(x)| \leq 1
+\end{cases} \\
+& & \Leftrightarrow
+\begin{cases}
+   f(x) = g(x) \\
+   |g(x)| \leq 1
+\end{cases}\\
+\arccos f(x)&=\arccos g(x) & \Leftrightarrow
+\begin{equation*}
+ \begin{cases}
+   f(x)=g(x) \\
+   |f(x)|\leq 1\\
+ \end{cases}
+ \end{equation*}\\
+& & \Leftrightarrow
+\begin{equation*}
+ \begin{cases}
+ f(x)=g(x) \\
+ |g(x)|\leq 1\\
+ \end{cases} 
+\end{equation*} \\
+\end{align*}
+$$
+
+$$
+\arctan f(x)=\arctan g(x) \Leftrightarrow f(x)=g(x) \\
+\arcctg f(x)=\arcctg g(x) \Leftrightarrow f(x)=g(x)\\
+$$
+
+$$
+\begin{align*}
+\arcsin f(x)&=\arccos g(x) \Rightarrow f^2(x)+g^2(x)=1 \\
+\arctg f(x)&=\arcctg g(x) \Rightarrow f(x)g(x)=1 \\
+\arcsin f(x)&=\arcctg g(x) \Rightarrow f^2(x)=\frac{1}{g^2(x)+1} \\
+\arccos f(x)&=\arctan g(x) \Rightarrow f^2(x)=\frac{1}{g^2(x)+1} \\
+\arcsin f(x)&=\arctan g(x) \Rightarrow f^2(x)=\frac{g^2(x)}{g^2(x)+1} \\
+\arccos f(x)&=\arcctg g(x) \Rightarrow f^2(x)=\frac{g^2(x)}{g^2(x)+1}\\
+\end{align*}
+$$
+
+## Inequalities
 $$
 \begin{align*}
 \arcsin f(x)&\leq \arcsin g(x) \Leftrightarrow  
@@ -99,20 +122,13 @@ $$
 \end{cases}
 \end{equation*} \\[3ex]
 \arctan f(x)&\leq \arctan g(x) \Leftrightarrow f(x)\leq g(x) \\
-\arcctg f(x)&\leq \arcctg g(x) \Leftrightarrow f(x)\geq g(x) \\
+\arcctg f(x)&\leq \arcctg g(x) \Leftrightarrow f(x)\geq g(x) 
 \end{align*}
 $$
 
-$$
-\begin{align*}
-\arcsin f(x)&=\arccos g(x) \Rightarrow f^2(x)+g^2(x)=1 \\
-\arctg f(x)&=\arcctg g(x) \Rightarrow f(x)g(x)=1 \\
-\arcsin f(x)&=\arcctg g(x) \Rightarrow f^2(x)=\frac{1}{g^2(x)+1} \\
-\arccos f(x)&=\arctan g(x) \Rightarrow f^2(x)=\frac{1}{g^2(x)+1} \\
-\arcsin f(x)&=\arctan g(x) \Rightarrow f^2(x)=\frac{g^2(x)}{g^2(x)+1} \\
-\arccos f(x)&=\arcctg g(x) \Rightarrow f^2(x)=\frac{g^2(x)}{g^2(x)+1} \\
-\end{align*}
-$$
+
+
+## $f(x) = a $
 
 $$
 \begin{align*}
@@ -136,6 +152,8 @@ a&\in R\Rightarrow x=\arcctg(a)+\pi k, k\in Z \\
 ctg(x)&=0\Rightarrow x=\frac{\pi}{2}+\pi k, k\in Z \\
 \end{align*}
 $$
+
+## $f(x) > a $
 $$
 \begin{align*}
 \sin(x)>a \\
@@ -152,6 +170,8 @@ a&\in R \Rightarrow \arctan(a)+\pi k<x<\frac{\pi}{2}+\pi k, k\in Z \\
 a&\in R \Rightarrow \pi k<x<\arcctg(a)+\pi k, k\in Z \\
 \end{align*}
 $$
+
+## $f(x) < a $
 $$
 \begin{align*}
 \sin(x)<a \\
@@ -168,6 +188,8 @@ a&\in R \Rightarrow -\frac{\pi}{2} +\pi k<x<\arctan(a)+\pi k, k\in Z \\
 a&\in R \Rightarrow \arcctg(a)+\pi k<x<\pi +\pi k, k\in Z \\
 \end{align*}
 $$
+
+## $f(x) \geq a $
 $$
 \begin{align*}
 \sin(x)\geq a \\
@@ -186,6 +208,8 @@ a&\in R \Rightarrow \arctan(a)+\pi k\leq x \frac{\pi}{2}+\pi k, k\in Z \\
 a&\in R \Rightarrow \pi k< x\leq \arcctg(a)+\pi k, k\in Z \\
 \end{align*}
 $$
+
+## $f(x) \leq a $
 $$
 \begin{align*}
 \sin(x)\leq a \\
