@@ -1,5 +1,5 @@
 ## Физмат формулалар кітабы
-Nazar
+
 [![fizmat](https://i.ibb.co/pWpN1xK/fizmat.jpg)](https://ibb.co.com/PT8JrNW)
 
 
