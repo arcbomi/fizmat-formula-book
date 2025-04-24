@@ -36,6 +36,12 @@ $$
 
 
 1) Егер $f(x)$ функциясы $[a,b]$ интервалында дифференциацияланатын функция болса, және $f(a)=f(b)$ болса онда $\exists x_0:f^\prime(x_0)=0 (x_0\in [a,b])$ $\textbf{(Ролль)}$
+&nbsp;
 2) Егер f(x) функциясы $[a,b]$ интервалында дифференциацияланатын функция болса, онда  $\exists x_0\in [a,b]:f^\prime(x_0)=\frac{f(a)-f(b)}{a-b}$ $\textbf{(Лагранж)}$
+&nbsp;
 3) $f(x), g(x)$ функциялары $[a,b]$ интервалында дифференфиацияланатын функциялар болсын және $g^\prime(x)\neq 0 \ \forall x\in [a,b]$; онда $\exists x_0\in[a,b]:$ $\frac{f(b)-f(a)}{g(b)-g(a)} = \frac{f^\prime(x_0)}{g^\prime(x_0)}$ $\textbf{(Коши)}$
-Егер біз үшінші тұжырымда $f(a)=g(a)=0$ деп алып, кейбір манипуляциялар(логикалық) қолдансақ, физмат жек көретін $\textbf{Лопиталь}$  $\textbf{ережесін}$ аламыз.
+&nbsp;
+4) Егер $\lim_{x\rightarrow x_0}{f(x)}=\lim_{x\rightarrow x_0}{g(x)}=0 $ немесе $ \lim_{x\rightarrow x_0}{f(x)}=\lim_{x\rightarrow x_0}{g(x)}=\infty$ болса, онда 
+$$
+\lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f^\prime(x)}{g^\prime(x)}\ \text{болады} \textbf{(Лопиталь)}
+$$
