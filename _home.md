@@ -1,6 +1,6 @@
 ## Физмат формулалар кітабы
 
-[![fizmat](https://i.ibb.co/pWpN1xK/fizmat.jpg)](https://ibb.co.com/PT8JrNW)
+[![fizmat](https://image.formula.arcbomi.org/formula-book-home.jpg)](https://image.formula.arcbomi.org/formula-book-home.jpg)
 
 
 **Fizmat Formula Book** веб-сайтына қош келдіңіз! Бұл математикалық формулалар мен олардың дәлелдеулерін қамтамасыз етуге бағытталған қарапайым құрал. Мұнда жалпы математикалық формулаларды оңай іздеп және олардың артындағы дәлелдеуін оңай түсінуге болады.

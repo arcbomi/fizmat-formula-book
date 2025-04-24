@@ -1,1 +1,1 @@
-Maintained by [Arcbomi](https://github.com/arcbomi). Proudly published with [docsify](https://docsify.js.io)
+[Arcbomi](https://github.com/arcbomi) командасы тарапынан жүргізіледі. [Docsify](https://docsify.js.org) платформасы арқылы мақтанышпен жарияланған.
